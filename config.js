@@ -7,7 +7,7 @@ global.owner = [
   
 ] 
 global.ownername = [['RiddSlebew']]
-global.namabot = [['RidBot']]
+global.namabot = [['iRiddzBot']]
 global.ownerinsta = [['-']]
 global.mods = [] 
 global.prems = [] 
@@ -43,8 +43,8 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'PENTABOT'
-  var sticker_author = 'By GEMPY'
+  var sticker_name = 'iRiddzBot'
+  var sticker_author = 'By iRiddz'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -61,9 +61,9 @@ fs.watchFile(file_exif, () => {
 // Sticker WM
 global.packname = sticker_name
 global.author = sticker_author
-global.wm = 'Created by Gempy'
+global.wm = '©iRiddz'
 
-global.multiplier = 1000 // The higher, The harder levelup
+global.multiplier = 69 // The higher, The harder levelup
 
 global.rpg = {
   emoticon(string) {
